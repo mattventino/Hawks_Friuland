@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orari</title>
+</head>
+
+<body>
+
+    <header>
+        <div id="menu">
+                <nav>
+                    <ul>
+                        <li>
+                            <a>Home</a>
+                        </li>
+                        <li>
+                            <a>Prenota</a>
+                        </li>
+                        <li>
+                            <a>About</a>
+                        </li>
+                        <li>
+                            <a>News</a>
+                        </li>
+                        <li>
+                            <a>Orari</a>
+                        </li>
+                        <li>
+                            <a>Contact Us</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <h1>Orari del parco</h1>
+
+    <table>
+        <thead>
+            <th>ORARIO ESTIVO</th>
+            <th>APERTURA</th>
+            <th>CHIUSURA</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Lunedì</td>
+                <td>9:00</td>
+                <td>22:00</td>
+            </tr>
+            <tr>
+                <td>Martedì</td>
+                <td>9:00</td>
+                <td>22:00</td>
+            </tr>
+            <tr>
+                <td>Mercoledì</td>
+                <td>9:00</td>
+                <td>22:00</td>
+            </tr>
+            <tr>
+                <td>Giovedì</td>
+                <td>9:00</td>
+                <td>22:00</td>
+            </tr>
+            <tr>
+                <td>Venerdì</td>
+                <td>9:00</td>
+                <td>23:00</td>
+            </tr>
+            <tr>
+                <td>Sabato</td>
+                <td>9:00</td>
+                <td>23:00</td>
+            </tr>
+            <tr>
+                <td>Domenica</td>
+                <td>9:00</td>
+                <td>22:00</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table>
+        <thead>
+            <th>ORARIO INVERNALE</th>
+            <th>APERTURA</th>
+            <th>CHIUSURA</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Lunedì</td>
+                <td>10:00</td>
+                <td>20:00</td>
+            </tr>
+            <tr>
+                <td>Martedì</td>
+                <td>10:00</td>
+                <td>20:00</td>
+            </tr>
+            <tr>
+                <td>Mercoledì</td>
+                <td>10:00</td>
+                <td>20:00</td>
+            </tr>
+            <tr>
+                <td>Giovedì</td>
+                <td>10:00</td>
+                <td>20:00</td>
+            </tr>
+            <tr>
+                <td>Venerdì</td>
+                <td>10:00</td>
+                <td>21:00</td>
+            </tr>
+            <tr>
+                <td>Sabato</td>
+                <td>10:00</td>
+                <td>21:00</td>
+            </tr>
+            <tr>
+                <td>Domenica</td>
+                <td>10:00</td>
+                <td>20:00</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+
+<style>
+    html,
+    body {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    header {
+        background-color: #555;
+        color: #fff;
+        height: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-image: url(/immagini/wallpaper.jpg);
+        background-position: center bottom;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    #menu {
+        align-items: center;
+        width: 100%;
+        padding: 0 30px;
+    }
+
+    #menu ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+    }
+
+    #menu li {
+        padding: 4px 8px;
+        font-size: 22px;
+        text-transform: uppercase;
+        margin-right: 15px;
+    }
+
+    #menu a {
+        color: #fff;
+        text-decoration: none;
+        transition: color 1s;
+    }
+
+    #menu a:hover {
+        color: #ddc3eb;
+        text-decoration: underline;
+    }
+
+    h1 {
+        margin: 30px;
+    }
+
+    table {
+        text-align: justify;
+        border-collapse: collapse;
+        margin: 50px 0 50px 30px;
+    }
+
+    table th {
+        width: 250px;
+        padding-bottom: 10px;
+    }
+
+    table td {
+        padding: 5px 0 5px 0;
+        padding: 10px;
+    }
+
+    tbody tr:nth-child(2n+1) {
+        background-color: #ddc3eb;
+    }
+
+    tbody tr:hover {
+        border: 1px solid #555;
+    }
+
+
+</style>
+
+</html>

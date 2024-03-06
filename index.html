@@ -4,5 +4,158 @@
         <title>pagina</title>
 
         <link rel="stylesheet" href="style.css"/>
+
+        <style>
+            body {
+                margin: 0;
+            }
+            .logo {
+                display: flex;
+                justify-content: center;
+            }
+            ul {
+                list-style: none;
+                margin: 0;
+                padding: 0;
+                display: flex;
+                justify-content: center;
+            }
+            .menu a {
+                text-decoration: none;
+                color: black;
+                text-transform: uppercase;
+            }
+            .menu a:hover {
+                color:cornflowerblue;
+            }
+            li {
+                display: inline;
+                padding: 20px;
+            }
+            .h1 {
+                text-align: center;
+            }
+            .palinsesto {
+                display: flex;
+                justify-content: space-between;
+            }
+            .match {
+                width: 25%;
+                height: 200px;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+            .match div {
+                width: 100%;
+                text-align: center;
+            }
+            .match button {
+                width: 30%;
+            }
+           
+        </style>
         
     </head>
+
+    <body>
+        <header>
+            <div class="logo">
+                <img src="/images/Bwin-Logo.png" alt="" style="width: 150px;">
+            </div>
+
+            <div class="menu">
+                <ul>
+                    <li>
+                        <a href="/">Scommesse</a>
+                    </li>
+                    <li>
+                        <a href="/">Casinò</a>
+                    </li>
+                    <li>
+                        <a href="/">Live</a>
+                    </li>
+                    <li>
+                        <a href="/">Casinò live</a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+
+        <div class="h1">
+            <h1>Partite di oggi</h1>
+        </div>
+
+        <div class="palinsesto">
+
+            <div class="match">
+                
+                <div>
+                    <h2>Champions league</h2>
+                </div>
+                
+                <div>
+                    <h2>Real Madrid - Lipsia</h2>
+                </div>
+                
+                <div>
+                    <button>1</button>
+                    <button>X</button>
+                    <button>2</button>
+                </div>
+                
+                
+            </div>
+
+            <div class="match">
+
+                <div>
+                    <h2>Champions league</h2>
+                </div>
+                
+                <div>
+                    <h2>Manchester City - Copenaghen</h2>
+                </div>
+                
+                <div>
+                    <button>1</button>
+                    <button>X</button>
+                    <button>2</button>
+                </div>
+
+            </div>
+
+            <div class="match">
+                <div>
+                    <h2>Europa league</h2>
+                </div>
+                
+                <div>
+                    <h2>Roma - Brighton</h2>
+                </div>
+                
+                <div>
+                    <button>1</button>
+                    <button>X</button>
+                    <button>2</button>
+                </div>
+            </div>
+
+            <div class="match">
+                <div>
+                    <h2>Europa league</h2>
+                </div>
+                
+                <div>
+                    <h2>Atalanta - Sporting Lisbona</h2>
+                </div>
+                
+                <div>
+                    <button>1</button>
+                    <button>X</button>
+                    <button>2</button>
+                </div>
+            </div>
+
+        </div>
+    </body>

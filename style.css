@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+}
+.logo {
+    display: flex;
+    justify-content: center;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.menu a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+.menu a:hover {
+    color:cornflowerblue;
+}
+li {
+    display: inline;
+    padding: 20px;
+}
+.h1 {
+    text-align: center;
+}
+.palinsesto {
+    display: flex;
+    justify-content: space-between;
+}
+.match {
+    width: 25%;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.match div {
+    width: 100%;
+    text-align: center;
+}
+.match button {
+    width: 30%;
+}

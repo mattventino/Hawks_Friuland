@@ -1,8 +1,71 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+style/klevis-hasa
+>>>>>>> 561ddcd0ae96585005d961b08373f104fc74ba84
 
 body {
     margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
+    header {
+        background-color: #555;
+        color: #fff;
+        height: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-image: url(/immagini/wallpaper.jpg);
+        background-position: center bottom;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    li {
+        display: inline;
+        padding: 20px;
+    }
+
+    h1 {
+        margin: 30px;
+    }
+    table {
+        text-align: justify;
+        border-collapse: collapse;
+        margin: 50px 0 50px 30px;
+    }
+
+    table th {
+        width: 250px;
+        padding-bottom: 10px;
+    }
+
+    table td {
+        padding: 5px 0 5px 0;
+        padding: 10px;
+    }
+
+    tbody tr:nth-child(2n+1) {
+        background-color: #ddc3eb;
+    }
+
+    tbody tr:hover {
+        border: 1px solid #555;
+    }
+
+
+    .h1 {
+        text-align: center;
+    }
 
 .menu {
     display: flex;
@@ -16,6 +79,7 @@ body {
 
 
 .menu ul {
+<<<<<<< HEAD
 =======
 body {
     margin: 0;
@@ -26,11 +90,16 @@ body {
 }
 ul {
 >>>>>>> 5681f7939115dcd212272376500d17429aa989c1
+=======
+>>>>>>> 561ddcd0ae96585005d961b08373f104fc74ba84
     list-style: none;
     margin: 0;
     padding: 0;
     display: flex;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 561ddcd0ae96585005d961b08373f104fc74ba84
     align-items: center;
     gap: 10px;
 }
@@ -73,7 +142,47 @@ ul {
     margin: 0  auto;
     text-align: center;
 }
+<<<<<<< HEAD
 =======
+=======
+
+
+
+    #menu {
+        align-items: center;
+        width: 100%;
+        padding: 0 30px;
+    }
+
+    #menu ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+    }
+
+    #menu li {
+        padding: 4px 8px;
+        font-size: 22px;
+        text-transform: uppercase;
+        margin-right: 15px;
+    }
+
+    #menu a {
+        color: #fff;
+        text-decoration: none;
+        transition: color 1s;
+    }
+
+    #menu a:hover {
+        color: #ddc3eb;
+        text-decoration: underline;
+    }
+
+.logo {
+    display: flex;
+>>>>>>> 561ddcd0ae96585005d961b08373f104fc74ba84
     justify-content: center;
 }
 .menu a {
@@ -83,13 +192,6 @@ ul {
 }
 .menu a:hover {
     color:cornflowerblue;
-}
-li {
-    display: inline;
-    padding: 20px;
-}
-.h1 {
-    text-align: center;
 }
 .palinsesto {
     display: flex;
@@ -109,4 +211,7 @@ li {
 .match button {
     width: 30%;
 }
+<<<<<<< HEAD
 >>>>>>> 5681f7939115dcd212272376500d17429aa989c1
+=======
+>>>>>>> 561ddcd0ae96585005d961b08373f104fc74ba84

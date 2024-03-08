@@ -17,6 +17,50 @@ html,
         background-repeat: no-repeat;
     }
 
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    li {
+        display: inline;
+        padding: 20px;
+    }
+
+    h1 {
+        margin: 30px;
+    }
+    table {
+        text-align: justify;
+        border-collapse: collapse;
+        margin: 50px 0 50px 30px;
+    }
+
+    table th {
+        width: 250px;
+        padding-bottom: 10px;
+    }
+
+    table td {
+        padding: 5px 0 5px 0;
+        padding: 10px;
+    }
+
+    tbody tr:nth-child(2n+1) {
+        background-color: #ddc3eb;
+    }
+
+    tbody tr:hover {
+        border: 1px solid #555;
+    }
+
+    .h1 {
+        text-align: center;
+    }
+
     #menu {
         align-items: center;
         width: 100%;
@@ -49,30 +93,33 @@ html,
         text-decoration: underline;
     }
 
-    h1 {
-        margin: 30px;
-    }
-
-    table {
-        text-align: justify;
-        border-collapse: collapse;
-        margin: 50px 0 50px 30px;
-    }
-
-    table th {
-        width: 250px;
-        padding-bottom: 10px;
-    }
-
-    table td {
-        padding: 5px 0 5px 0;
-        padding: 10px;
-    }
-
-    tbody tr:nth-child(2n+1) {
-        background-color: #ddc3eb;
-    }
-
-    tbody tr:hover {
-        border: 1px solid #555;
-    }
+.logo {
+    display: flex;
+    justify-content: center;
+}
+.menu a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+.menu a:hover {
+    color:cornflowerblue;
+}
+.palinsesto {
+    display: flex;
+    justify-content: space-between;
+}
+.match {
+    width: 25%;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.match div {
+    width: 100%;
+    text-align: center;
+}
+.match button {
+    width: 30%;
+}
